@@ -92,7 +92,7 @@
     <div id="splash">
         <div class="ball"></div>
         <div class="bat"></div>
-        <p class="text-3xl font-bold text-white mt-20">On the Way...</p>
+        <p class="text-3xl font-bold text-white mt-20">Decision Pending...</p>
     </div>
 
     <!-- Container -->
@@ -108,55 +108,54 @@
         </div>
 
         <!-- Points Table Section -->
-        <div id="pointsTable"
-            class="bg-gray-900 shadow-xl rounded-lg p-6 transition-all duration-500 transform scale-95 hover:scale-100">
+         <!-- Points Table Section -->
+         <div id="pointsTable" class="bg-gray-900 shadow-xl rounded-lg p-4 md:p-6 transition-all duration-500 transform scale-95 hover:scale-100">
             <!-- Champions Trophy Points Table -->
             <div id="championsTable" class="table-container">
-                <h2 class="text-2xl font-bold mb-4 text-center text-green-400">Champions Trophy Points Table</h2>
-                <table class="table-auto w-full border-collapse text-lg text-white">
-                    <thead>
-                        <tr class="bg-gray-800 text-gray-300">
-                            <th class="px-6 py-3 border border-gray-600">Team</th>
-                            <th class="px-6 py-3 border border-gray-600">Played</th>
-                            <th class="px-6 py-3 border border-gray-600">Won</th>
-                            <th class="px-6 py-3 border border-gray-600">Lost</th>
-                            <th class="px-6 py-3 border border-gray-600">Points</th>
-                            <th class="px-6 py-3 border border-gray-600">PRR</th>
-
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="hover:bg-gray-700">
-                            <td class="px-6 py-3 border border-gray-600">Gokul</td>
-                            <td class="px-6 py-3 border border-gray-600">3</td>
-                            <td class="px-6 py-3 border border-gray-600">3</td>
-                            <td class="px-6 py-3 border border-gray-600">0</td>
-                            <td class="px-6 py-3 border border-gray-600">6</td>
-                            <td class="px-6 py-3 border border-gray-600">+ 514</td>
-
-                        </tr>
-                        <tr class="hover:bg-gray-100">
-                            <td class="px-6 py-3 border border-gray-600">Prathi</td>
-                            <td class="px-6 py-3 border border-gray-600">3</td>
-                            <td class="px-6 py-3 border border-gray-600">0</td>
-                            <td class="px-6 py-3 border border-gray-600">3</td>
-                            <td class="px-6 py-3 border border-gray-600">2</td>
-                            <td class="px-6 py-3 border border-gray-600">- 514</td>
-
-                        </tr>
-                        <tr class="hover:bg-gray-100">
-                            <td class="px-6 py-3 border border-gray-600">Shahil</td>
-                            <td class="px-6 py-3 border border-gray-600">3</td>
-                            <td class="px-6 py-3 border border-gray-600">0</td>
-                            <td class="px-6 py-3 border border-gray-600">3</td>
-                            <td class="px-6 py-3 border border-gray-600">1</td>
-                            <td class="px-6 py-3 border border-gray-600">- 639.5</td>
-
-                        </tr>
-
-                    </tbody>
-                </table>
+                <h2 class="text-lg md:text-2xl font-bold mb-4 text-center text-green-400">Champions Trophy Points Table</h2>
+                
+                <div class="overflow-x-auto">
+                    <table class="table-auto w-full border-collapse text-xs md:text-lg text-white">
+                        <thead>
+                            <tr class="bg-gray-800 text-gray-300">
+                                <th class="px-2 md:px-6 py-3 border border-gray-600">Team</th>
+                                <th class="px-2 md:px-6 py-3 border border-gray-600">Played</th>
+                                <th class="px-2 md:px-6 py-3 border border-gray-600">Won</th>
+                                <th class="px-2 md:px-6 py-3 border border-gray-600">Lost</th>
+                                <th class="px-2 md:px-6 py-3 border border-gray-600">Points</th>
+                                <th class="px-2 md:px-6 py-3 border border-gray-600">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-700">
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">Gokul</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">5</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">4</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">1</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">9</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600"><span class="text-green-500">▲</span></td>
+                            </tr>
+                            <tr class="hover:bg-gray-700">
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">Shahil</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">5</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">1</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">4</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">3</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600"><span class="text-green-500">▲</span></td>
+                            </tr>
+                            <tr class="hover:bg-gray-700">
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">Prathi</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">5</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">0</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">5</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600">3</td>
+                                <td class="px-2 md:px-6 py-3 border border-gray-600"><span class="text-red-500">▼</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
+
             <!-- IPL Points Table -->
             <div id="iplTable" class="table-container hidden">
                 <h1 class="text-2xl font-bold text-center text-red-400">IPL Coming Soon...</h1>
